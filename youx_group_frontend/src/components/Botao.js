@@ -1,6 +1,13 @@
-import React from 'react'
+import { Component } from 'react'
 
-export default props =>
-    <>
-        <button>{props.Texto}</button>
-    </> 
+export default class Botao extends Component {
+
+    constructor(props) {
+
+        return(
+        <div className="Botao">
+            <button>{props.Texto}</button>
+        </div>
+        )
+    }
+}

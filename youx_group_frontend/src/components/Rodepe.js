@@ -1,18 +1,13 @@
-import React, { Component } from "react";
+import { Component } from 'react'
 
-class Rodape extends Component {
-    constructor(props){
-        super(props)
-        this.state = {
-            
-        }
-    }
-    render(){
+export default class Rodape extends Component {
+
+    constructor() {
+
         return(
-            <div>
+            <div className="Rodape">
                 <footer></footer>
             </div>
         )
     }
 }
-export default Rodape

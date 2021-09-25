@@ -1,13 +1,12 @@
-import React from "react";
+import { Component } from 'react'
 
-class ListaPacientes extends Comment {
-    constructor(props){
+export default class ListaPacientes extends Component {
+    constructor(props) {
         super(props)
         this.state = {
-            
+          loading: false,
+          error: null
         }
-    }
-    render(){
         return(
             <div>
                 <h3>Lista de Pacientes</h3>
@@ -44,4 +43,3 @@ class ListaPacientes extends Comment {
         )
     }
 }
-export default ListaPacientes

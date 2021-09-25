@@ -1,15 +1,11 @@
-import React, { Component } from "react";
+import { Component } from 'react'
 
-class Cabecalho extends Component {
-    constructor(props){
-        super(props)
-        this.state = {
-            
-        }
-    }
-    render(){
+export default class Cabecalho extends Component {
+
+    constructor() {
+
         return(
-            <div>
+            <div className="Cabecalho">
                 <header>
                     <nav></nav>
                 </header>
@@ -17,4 +13,3 @@ class Cabecalho extends Component {
         )
     }
 }
-export default Cabecalho
