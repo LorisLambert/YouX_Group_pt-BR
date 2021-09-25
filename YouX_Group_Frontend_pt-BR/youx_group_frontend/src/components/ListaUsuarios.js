@@ -1,16 +1,15 @@
-import React, { Component } from "react";
+import { Component } from 'react'
 
-class ListaUsuarios extends Component {
-    constructor(props){
-        super()
+export default class ListaUsuarios extends Component {
+    constructor(props) {
+        super(props)
         this.state = {
-            
+          loading: false,
+          error: null
         }
-    }
-    render(){
         return(
             <div>
-                <h3>Lista de Médicos e Enfermeiros</h3>
+                <h3>Lista de Usuários</h3>
                 <div>
                     <table>
                         <thead>
@@ -38,4 +37,3 @@ class ListaUsuarios extends Component {
         )
     }
 }
-export default ListaUsuarios
