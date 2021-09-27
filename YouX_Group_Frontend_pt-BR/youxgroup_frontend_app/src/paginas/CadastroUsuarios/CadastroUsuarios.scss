@@ -1,10 +1,10 @@
-.login{
+.cadastro{
 	background: linear-gradient(-45deg, #01072e, #063366, #107ca3, #3a8ad4);
 	background-size: 400% 400%;
 	animation: gradient 15s ease infinite;
 	height: 100vh;
 
-	.caixa-login{
+	.caixa-cadastro{
 		background-color: rgba(238, 248, 248, 0.2);
 		left: 50%;
 		position: fixed;
@@ -13,10 +13,16 @@
 		padding: 25px;
 		border-radius: 6px;
 
-		.area-login{
+		.area-cadastro{
 			h1{
 				color: rgb(255, 255, 255);
 			}
+
+            form{
+                max-width: 600px;
+                margin: 0 auto;
+                padding: 20px;
+            }
 		}
 	}
 }
